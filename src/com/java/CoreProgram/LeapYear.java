@@ -1,7 +1,7 @@
-package com.java.year;
+package com.java.CoreProgram;
 
 import java.util.Scanner;
-
+//Leap Year
 public class LeapYear
 {
     public static void  main(String args[])

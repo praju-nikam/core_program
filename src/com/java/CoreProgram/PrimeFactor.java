@@ -1,19 +1,17 @@
-package com.java.PrimeFactor;
+package com.java.CoreProgram;
 
 import java.util.Scanner;
-
-public class PrimeFactor {
+//Calculate prime Factor
+public class PrimeFactor
+{
     public static void primeFact(int n)
     {
-        while (n % 2 == 0) {
-            System.out.print(2 + " ");
-            n /= 2;
-        }
-        for (int i = 3; i*i <=n; i += 2) {
+        for ( int i = 2; i <=n; i++ ) {
 
-            while (n % i == 0) {
-                System.out.print(i + " ");
-                n /= i;
+            while (n % i == 0)
+            {
+                System.out.print(i + " " );
+                n=n/i;
             }
         }
 
